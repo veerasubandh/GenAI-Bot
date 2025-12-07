@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "GenAI Credit Card Assistant - Backend",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed/seedDemoData.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "genai",
+    "credit-card",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.0.0",
+    "mongoose": "^8.5.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^7.0.11",
+    "openai": "^4.0.0",
+    "path": "^0.12.7",
+    "pdfkit": "^0.17.2",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

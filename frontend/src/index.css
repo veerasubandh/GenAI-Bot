@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Poppins", "sans-serif";
+  --color-primary: #875cf5;
+  --color-dark: #0F172A;
+  --color-light-gray: #F1F5F9;
+}
+
+/* Global */
+body {
+  @apply font-sans bg-white text-dark dark:bg-black dark:text-gray-200;
+}
